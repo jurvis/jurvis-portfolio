@@ -44,7 +44,7 @@ a.fi-web:hover {
 }
 
 #footer h2.footer-header {
-	font-family: "brandon-grotesque",sans-serif;
+	font-family: "ff-tisa-sans-web-pro",sans-serif;
 	font-style: normal;
 	font-weight: 400;
 }
@@ -87,7 +87,7 @@ a.fi-web:hover {
 }
 
 .app-heading {
-	font-family: "brandon-grotesque",sans-serif;
+	font-family: "ff-tisa-sans-web-pro",sans-serif;
 	font-style: italic;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -98,9 +98,9 @@ a.fi-web:hover {
 
 .app-desc {
 	width: 100%;
-	font-family: "brandon-grotesque",sans-serif;
+	font-family: "ff-tisa-sans-web-pro",sans-serif;
 	font-style: normal;
-	font-weight: 500;
+	font-weight: 400;
 	text-transform: capitalize;
 	font-size: 16px;
 }
@@ -163,8 +163,8 @@ a.fi-web:hover {
 
 #profile-bar span {
 	text-transform: uppercase;
-	font-family: "brandon-grotesque",sans-serif;
-	font-style: normal;
+	font-family: "ff-tisa-sans-web-pro",sans-serif;
+	font-style: italic;
 	font-weight: 700;
 	color: #000000;
 	font-size: 1.250rem;
@@ -174,9 +174,9 @@ a.fi-web:hover {
 }
 
 #profile-bar h3 {
-	font-family: "brandon-grotesque",sans-serif;
+	font-family: "ff-tisa-sans-web-pro",sans-serif;
 	font-style: italic;
-	font-weight: 500;
+	font-weight: 700;	
 	display: inline-block;
 	color: #4A4A4A;
 	margin: 0;
