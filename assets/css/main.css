@@ -12,17 +12,20 @@ a {
 }
 
 a.fi-social-github:hover {
-	transition: .2s all ease-in-out;
+	-webkit-transition: .2s all ease-in-out;
+	        transition: .2s all ease-in-out;
 	color: #4a4a4a;
 }
 
 a.fi-social-twitter:hover {
-	transition: .2s all ease-in-out;
+	-webkit-transition: .2s all ease-in-out;
+	        transition: .2s all ease-in-out;
 	color: #3cf;
 }
 
 a.fi-web:hover {
-	transition: .2s all ease-in-out;
+	-webkit-transition: .2s all ease-in-out;
+	        transition: .2s all ease-in-out;
 	color: #0084b4;
 }
 
@@ -45,38 +48,26 @@ a.fi-web:hover {
 
 #relayplay {
 	background: url('../img/relayplay.jpg') no-repeat center center fixed;
-	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
+ background-size: cover;
   	height: 350px;
 }
 
 #carousell {
 	background: url('../img/carousell-desktop-mockup.jpg') no-repeat center center fixed;
-	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
+ background-size: cover;
   	height: 350px;
 }
 
 #nebulo {
 	background: url('../img/nebulo-iphone-mockup.jpg') no-repeat center center fixed;
-	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
+ background-size: cover;
   	height: 350px;
 }
 
 
 #multitude {
 	background: url('../img/multitude-mockup.jpg') no-repeat center center fixed;
-	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
+ background-size: cover;
   	height: 350px;
 }
 
@@ -121,13 +112,13 @@ a.fi-web:hover {
 	height: 400px;
 	display: -webkit-box;
 	display: -webkit-flex;
-	display: -moz-box;
 	display: -ms-flexbox;
 	display: flex;
 	-webkit-flex-align: center;
 	-ms-flex-align: center;
 	-webkit-align-items: center;
-	align-items: center;
+	-webkit-box-align: center;
+	        align-items: center;
 }
 
 #introduction h3 {
@@ -163,7 +154,7 @@ a.fi-web:hover {
 	font-style: normal;
 	font-weight: 700;
 	color: #000000;
-	font-size: 1.4rem;
+	font-size: 1.3rem;
 	display: block;
 	line-height: 1;
 	margin-top: .520rem;
@@ -207,7 +198,8 @@ a.btn {
 	display: inline-block;
 	margin: 0 auto;
 	line-height: 1.6em;
-	transition: .2s all ease-in-out;
+	-webkit-transition: .2s all ease-in-out;
+	        transition: .2s all ease-in-out;
 	padding: 0.8em 1em;
 	text-transform: uppercase;
 	background-color: transparent;
@@ -264,7 +256,8 @@ a.btn {
 	display: inline-block;
 	margin: 0 auto;
 	line-height: 1.6em;
-	transition: .2s all ease-in-out;
+	-webkit-transition: .2s all ease-in-out;
+	        transition: .2s all ease-in-out;
 	text-transform: uppercase;
 	background-color: #fff;
 	font-weight: 700;
@@ -284,13 +277,13 @@ a.btn {
 	background: url('../img/arrow.png'), #313743;
 	display: -webkit-box;
 	display: -webkit-flex;
-	display: -moz-box;
 	display: -ms-flexbox;
 	display: flex;
 	-webkit-flex-align: center;
 	-ms-flex-align: center;
 	-webkit-align-items: center;
-	align-items: center;
+	-webkit-box-align: center;
+	        align-items: center;
 }
 
 #accolades h3 {
@@ -337,35 +330,23 @@ a.btn {
 
 #product-image.relayplay {
 	background: url('../img/relayplay.jpg') no-repeat center center fixed;
-	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
+ background-size: cover;
 }
 
 
 #product-image.carousell {
 	background: url('../img/carousell-desktop-mockup.jpg') no-repeat center center fixed;
-	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
+ background-size: cover;
 }
 
 #product-image.multitude {
 	background: url('../img/multitude-mockup.jpg') no-repeat center center fixed;
-	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
+ background-size: cover;
 }
 
 #product-image.nebulo {
 	background: url('../img/nebulo-iphone-mockup.jpg') no-repeat center center fixed;
-	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
+ background-size: cover;
 }
 
 #footer.small {
