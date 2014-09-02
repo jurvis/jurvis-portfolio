@@ -280,7 +280,6 @@ a.btn {
 }
 
 /**** PRODUCT PAGE CSS ****/
-
 #accolades {
 	background: url('../img/arrow.png'), #313743;
 	display: -webkit-box;
@@ -303,6 +302,8 @@ a.btn {
 	line-height: 1.5em;
 	vertical-align: middle;
 	text-align: center;
+	font-size: 2em;
+	margin-bottom: 1em;
 }
 
 #accolades p {
@@ -313,11 +314,6 @@ a.btn {
 	color: #fff;
 	margin-top: 0;
 	margin-bottom: 24px;
-}
-
-#accolades h3 {
-	font-size: 2em;
-	margin-bottom: 1em;
 }
 
 #product-desc h3 {
@@ -373,5 +369,10 @@ a.btn {
 }
 
 #footer.small {
-	height: 300px;
+	padding:50px;
 }
+
+#footer-btn {
+	margin:10px;
+}
+
