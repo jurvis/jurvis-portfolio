@@ -3,6 +3,10 @@ body {
 }
 
 a {
+	font-family: "proxima-nova",sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	letter-spacing: 1px;
 	color: initial;
 	text-decoration: none;
 }
@@ -38,16 +42,6 @@ a.fi-web:hover {
 	padding: 100px;
 }
 
-#footer h2 {
-	color: white;
-	text-align: center;
-}
-
-#footer h2.footer-header {
-	font-family: "franklin-gothic-urw",sans-serif;
-	font-style: normal;
-	font-weight: 400;
-}
 
 #relayplay {
 	background: url('../img/relayplay.jpg') no-repeat center center fixed;
@@ -87,18 +81,18 @@ a.fi-web:hover {
 }
 
 .app-heading {
-	font-family: "franklin-gothic-urw",sans-serif;
+	font-family: "proxima-nova",sans-serif;
 	font-style: italic;
 	font-weight: 700;
 	text-transform: uppercase;
-	font-size: 37px;
+	font-size: 2.5em;
 	margin-top: 15%;
 	margin-bottom: 0;
 }
 
 .app-desc {
 	width: 100%;
-	font-family: "franklin-gothic-urw",sans-serif;
+	font-family: "proxima-nova",sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	text-transform: capitalize;
@@ -137,7 +131,9 @@ a.fi-web:hover {
 }
 
 #introduction h3 {
-	font-family: 'Open Sans';
+	font-family: "leitura-news", 'Open Sans', serif;
+	font-style: normal;
+	font-weight: 300;
 	color: #FFFFFF;
 	line-height: 1.5em;
 	font-weight:300;
@@ -163,18 +159,18 @@ a.fi-web:hover {
 
 #profile-bar span {
 	text-transform: uppercase;
-	font-family: "franklin-gothic-urw",sans-serif;
-	font-style: italic;
+	font-family: "proxima-nova",sans-serif;
+	font-style: normal;
 	font-weight: 700;
 	color: #000000;
-	font-size: 1.250rem;
+	font-size: 1.25rem;
 	display: block;
 	line-height: 1;
 	margin-top: .520rem;
 }
 
 #profile-bar h3 {
-	font-family: "franklin-gothic-urw",sans-serif;
+	font-family: "proxima-nova",sans-serif;
 	font-style: italic;
 	font-weight: 700;
 	display: inline-block;
@@ -201,14 +197,18 @@ a.fi-web:hover {
 }
 
 /* BUTTONS */
+a.btn {
+	font-size: 1em;
+}
 
 .btn {
+	padding: 1em 1em;
 	width: auto;
 	display: inline-block;
 	margin: 0 auto;
 	line-height: 1.6em;
 	transition: .2s all ease-in-out;
-	padding: 1.1em 1.5em;
+	padding: 0.8em 1em;
 	text-transform: uppercase;
 	background-color: transparent;
 	font-weight: 700;
@@ -295,22 +295,39 @@ a.fi-web:hover {
 }
 
 #accolades h3 {
-	font-family: 'Open Sans';
+	font-family: "proxima-nova",sans-serif;
+	font-style: normal;
+	font-weight: 700;	
 	color: #FFFFFF;
 	font-size: 1.5em;
 	line-height: 1.5em;
-	font-weight:700;
 	vertical-align: middle;
 	text-align: center;
 }
 
 #accolades p {
-	font-family: 'Open Sans';
+	font-family: "proxima-nova",sans-serif;
+	font-style: normal;
 	font-weight: 300;
 	text-align: center;
 	color: #fff;
 	margin-top: 0;
 	margin-bottom: 24px;
+}
+
+#product-desc h3 {
+	color:  rgb(61, 70, 77);
+	font-family: "leitura-news", serif;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 1.5em;
+}
+
+#product-desc  p {
+	color: #3d464d;
+	font-family: "leitura-news", serif;
+	font-style: normal;
+	font-weight: 300;
 }
 
 #product-image {
@@ -321,6 +338,14 @@ a.fi-web:hover {
 
 #product-image.multitude {
 	background: url('../img/multitude-mockup.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+#product-image.nebulo {
+	background: url('../img/nebulo-iphone-mockup.jpg') no-repeat center center fixed;
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
