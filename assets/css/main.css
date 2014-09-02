@@ -163,7 +163,7 @@ a.fi-web:hover {
 	font-style: normal;
 	font-weight: 700;
 	color: #000000;
-	font-size: 1.25rem;
+	font-size: 1.4rem;
 	display: block;
 	line-height: 1;
 	margin-top: .520rem;
@@ -315,6 +315,11 @@ a.btn {
 	margin-bottom: 24px;
 }
 
+#accolades h3 {
+	font-size: 2em;
+	margin-bottom: 1em;
+}
+
 #product-desc h3 {
 	color:  rgb(61, 70, 77);
 	font-family: "leitura-news", serif;
@@ -334,7 +339,22 @@ a.btn {
 	height: 500px;
 }
 
+#product-image.relayplay {
+	background: url('../img/relayplay.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
 
+
+#product-image.carousell {
+	background: url('../img/carousell-desktop-mockup.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
 
 #product-image.multitude {
 	background: url('../img/multitude-mockup.jpg') no-repeat center center fixed;
