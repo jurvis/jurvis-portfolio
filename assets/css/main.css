@@ -45,26 +45,26 @@ a.fi-web:hover {
 #relayplay {
 	background: url('../img/relayplay.jpg') no-repeat center center fixed;
  background-size: cover;
-  	height: 350px;
+  	height: 375px;
 }
 
 #carousell {
 	background: url('../img/carousell-desktop-mockup.jpg') no-repeat center center fixed;
  background-size: cover;
-  	height: 350px;
+  	height: 375px;
 }
 
 #nebulo {
 	background: url('../img/nebulo-iphone-mockup.jpg') no-repeat center center fixed;
  background-size: cover;
-  	height: 350px;
+  	height: 375px;
 }
 
 
 #multitude {
 	background: url('../img/multitude-mockup.jpg') no-repeat center center fixed;
  background-size: cover;
-  	height: 350px;
+  	height: 375px;
 }
 
 .app-heading {
@@ -353,7 +353,7 @@ a.btn {
 	margin:10px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 64.063em) {
 
 	h2.app-heading {
 		font-style: normal;
