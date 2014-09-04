@@ -440,4 +440,29 @@ a.btn {
 		min-height: 200px;
 		height: auto !important;
 	}
+
+	#product-image {
+	height: 60%;
+	}
+
+	#product-image.relayplay {
+		background: url('../img/relayplay_mobile.jpg') no-repeat center center fixed;
+	 background-size: cover;
+	}
+
+
+	#product-image.carousell {
+		background: url('../img/carousell-desktop-mockup_mobile.jpg') no-repeat center center fixed;
+	 background-size: cover;
+	}
+
+	#product-image.multitude {
+		background: url('../img/multitude-mockup_mobile.jpg') no-repeat center center fixed;
+	 background-size: cover;
+	}
+
+	#product-image.nebulo {
+		background: url('../img/nebulo-iphone-mockup_mobile.jpg') no-repeat center center fixed;
+	 background-size: cover;
+	}
 }
