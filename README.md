@@ -1,4 +1,4 @@
-# MY PORTFOLIO
+# My Personal Portfolio
 
 The code used for my portfolio located: http://jurvis.co/work/
 
