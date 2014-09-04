@@ -396,7 +396,11 @@ a.btn {
 	#social-btns {
 		display: none;
 	}
-
+	
+	#profile-bar {
+		padding: 10%;
+	}
+	
 	#profile-bar a img {
 		display: none;
 	}
