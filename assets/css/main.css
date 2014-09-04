@@ -394,11 +394,11 @@ a.btn {
 	}
 
 	#social-btns {
-		visibility: hidden;
+		display: none;
 	}
 
 	#profile-bar a img {
-		visibility: hidden;
+		display: none;
 	}
 
 	#profile-bar a span {
