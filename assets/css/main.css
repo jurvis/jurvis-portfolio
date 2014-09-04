@@ -442,27 +442,28 @@ a.btn {
 	}
 
 	#product-image {
-	height: 60%;
+		height: auto;
+		padding: 40%;
 	}
 
 	#product-image.relayplay {
-		background: url('../img/relayplay_mobile.jpg') no-repeat center center fixed;
-	 background-size: cover;
+		background: url('../img/relayplay_mobile.jpg') no-repeat;
+	 	background-size: 100%;
 	}
 
 
 	#product-image.carousell {
-		background: url('../img/carousell-desktop-mockup_mobile.jpg') no-repeat center center fixed;
-	 background-size: cover;
+		background: url('../img/carousell-desktop-mockup_mobile.jpg') no-repeat;
+	 background-size: 100%;
 	}
 
 	#product-image.multitude {
-		background: url('../img/multitude-mockup_mobile.jpg') no-repeat center center fixed;
-	 background-size: cover;
+		background: url('../img/multitude-mockup_mobile.jpg') no-repeat;
+	 background-size: 100%;
 	}
 
 	#product-image.nebulo {
-		background: url('../img/nebulo-iphone-mockup_mobile.jpg') no-repeat center center fixed;
-	 background-size: cover;
+		background: url('../img/nebulo-iphone-mockup_mobile.jpg') no-repeat;
+	 background-size: 100%;
 	}
 }
