@@ -397,10 +397,10 @@ a.btn {
 		display: none;
 	}
 	
-	#profile-bar {
+	div#profile-bar.row {
 		padding: 10%;
 	}
-	
+
 	#profile-bar a img {
 		display: none;
 	}
