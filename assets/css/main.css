@@ -356,6 +356,7 @@ a.btn {
 @media screen and (max-width: 64.063em) {
 
 	h2.app-heading {
+		margin-top: 0;
 		font-style: normal;
 	}
 
@@ -383,6 +384,14 @@ a.btn {
 		width: 100%;
 		text-align: center;
 	}
+	
+	#footer {
+		padding: 100 0 100 0;
+	}
+
+	.app.row {
+		padding: 100 20 100 20;
+	}
 
 	#social-btns {
 		visibility: hidden;
@@ -407,25 +416,28 @@ a.btn {
 	#relayplay {
 		background: rgb(27, 27, 31);
 		color: rgb(180, 186, 191);
-	  	height: 350px;
+		height: auto !important;
 	}
 
 	#carousell {
 		background: rgb(255, 255, 255);
 		color: rgb(38, 45, 46);
-	  	height: 350px;
+		min-height: 200px;
+		height: auto !important;
 	}
 
 	#nebulo {
 		background: rgb(27, 27, 31);
 		color: rgb(180, 186, 191);
-	  	height: 350px;
+		min-height: 200px;
+		height: auto !important;
 	}
 
 
 	#multitude {
 		background: rgb(255, 255, 255);
 		color: rgb(38, 45, 46);
-	  	height: 350px;
+		min-height: 200px;
+		height: auto !important;
 	}
 }
