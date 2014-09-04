@@ -285,7 +285,7 @@ a.btn {
 #accolades h3 {
 	font-family: "proxima-nova",sans-serif;
 	font-style: normal;
-	font-weight: 700;	
+	font-weight: 700;
 	color: #FFFFFF;
 	font-size: 1.5em;
 	line-height: 1.5em;
@@ -384,7 +384,7 @@ a.btn {
 		width: 100%;
 		text-align: center;
 	}
-	
+
 	#footer {
 		padding: 100 0 100 0;
 	}
@@ -396,9 +396,9 @@ a.btn {
 	#social-btns {
 		display: none;
 	}
-	
+
 	div#profile-bar.row {
-		padding: 10%;
+		padding: 15%;
 	}
 
 	#profile-bar a img {
