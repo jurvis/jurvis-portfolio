@@ -14,6 +14,7 @@ That's basically it.
 * RelayPlay
 
 ## Support and Tested
-* iPhone 5/5S
-* iPad Mini
-* 15" Retina Macbook Pro
+* ~~iPhone 5/5S~~
+* ~~iPad Mini~~
+* ~~15" Retina Macbook Pro~~
+Everything works everywhere now. (Except < IE9)
