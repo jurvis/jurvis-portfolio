@@ -7,13 +7,16 @@ Run this on htdocs with MAMP as you'll be needing it to view TypeKit Fonts
 
 That's basically it.
 
-## Current Projects
-* Multitude
+## Current Projects on Display
+* [Multitude](https://github.com/multitudeapp)
 * Nebulo
-* Carousell
+* [Carousell](http://carousell.co/)
 * RelayPlay
 
 ## Support and Tested
-* iPhone 5/5S
-* iPad Mini
-* 15" Retina Macbook Pro
+* ~~iPhone 5/5S~~
+* ~~iPad Mini~~
+* ~~15" Retina Macbook Pro~~
+ 
+
+Everything works everywhere now. (Except < IE9)
