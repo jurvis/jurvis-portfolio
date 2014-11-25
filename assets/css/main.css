@@ -129,6 +129,15 @@ a.fi-social-dribbble:hover {
 	text-align: center;
 }
 
+#introduction h3 a {
+	font-family: "leitura-news", 'Open Sans', serif;
+	font-style: normal;
+	font-weight: 300;
+	color: #FFFFFF;
+	line-height: 1.5em;
+	text-decoration: underline;
+}
+
 #nav {
 	display: block;
 	float: right;
