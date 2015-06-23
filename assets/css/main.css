@@ -37,7 +37,7 @@ a.fi-social-dribbble:hover {
 }
 
 #footer {
-	background: #313743;
+	/*background: #313743;*/
 	padding: 100px;
 }
 
@@ -104,32 +104,19 @@ a.fi-social-dribbble:hover {
 	color: #4A4A4A;
 }
 
-#introduction {
-	background: url('../img/arrow.png'), #313743;
-	height: 400px;
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-flex-align: center;
-	-ms-flex-align: center;
-	-webkit-align-items: center;
-	-webkit-box-align: center;
-	        align-items: center;
-}
 
-#introduction h3 {
+#profile-bar p {
 	font-family: "leitura-news", 'Open Sans', serif;
 	font-style: normal;
-	font-weight: 300;
-	color: #FFFFFF;
+	color: #3d464d;
 	line-height: 1.5em;
 	font-weight:300;
 	vertical-align: middle;
-	text-align: center;
+	text-align: left;
+	font-size: 1em;
 }
 
-#introduction h3 a {
+#profile-bar p a {
 	font-family: "leitura-news", 'Open Sans', serif;
 	font-style: normal;
 	font-weight: 300;
@@ -143,19 +130,17 @@ a.fi-social-dribbble:hover {
 	float: right;
 	font-size: 1rem;
 	list-style: none;
+	padding-left: 0;
+	margin: 0 auto;
+	text-align: center;
 }
 
 #nav li {
 	display: inline-block;
-	padding: 0 0 0 1rem;
-}
-
-#profile-bar {
-	background: #FFFFFF;
+	padding: 0 5 0 5;
 }
 
 #profile-bar span {
-	text-transform: uppercase;
 	font-family: "proxima-nova",sans-serif;
 	font-style: normal;
 	font-weight: 700;
@@ -182,7 +167,6 @@ a.fi-social-dribbble:hover {
 
 .row {
 	padding: 1.5em;
-	box-shadow: 0 0 100px 3px rgba(0,0,0,0.25);
 }
 
 /* code to get full width */
@@ -208,7 +192,7 @@ a.btn {
 	padding: 0.8em 1.2em;
 	text-transform: uppercase;
 	background-color: transparent;
-	font-weight: 700;
+	font-weight: 500;
 	border-bottom: none;
 	border-radius: 10px;
 }
@@ -244,8 +228,8 @@ a.btn {
 }
 
 .btn.center {
-	color: #fff;
-	box-shadow: inset 0 0 0 3px #fff;
+	color: grey;
+	box-shadow: inset 0 0 0 2px grey;
 	margin: 0 auto;
 	text-align:center;
 	display: block;
@@ -334,23 +318,23 @@ a.btn {
 }
 
 #product-image.relayplay {
-	background: url('../img/relayplay.jpg') no-repeat center center fixed;
+	background: url('../img/relayplay.jpg') no-repeat center center;
  background-size: cover;
 }
 
 
 #product-image.carousell {
-	background: url('../img/carousell-desktop-mockup.jpg') no-repeat center center fixed;
+	background: url('../img/carousell-desktop-mockup.jpg') no-repeat center center;
  background-size: cover;
 }
 
 #product-image.multitude {
-	background: url('../img/multitude-mockup.jpg') no-repeat center center fixed;
+	background: url('../img/multitude-mockup.jpg') no-repeat center center;
  background-size: cover;
 }
 
 #product-image.nebulo {
-	background: url('../img/nebulo-iphone-mockup.jpg') no-repeat center center fixed;
+	background: url('../img/nebulo-iphone-mockup.jpg') no-repeat center center;
  background-size: cover;
 }
 
@@ -360,6 +344,24 @@ a.btn {
 
 #footer-btn {
 	margin:10px;
+}
+
+#bio {
+	padding-top: 5px;
+}
+
+#header {
+	padding-bottom: 0px;
+}
+
+h3.appTitle {
+	margin-bottom: 0;
+}
+
+p.appDescription {
+	margin-top: 0;
+	font-weight: 100;
+	color: grey;
 }
 
 @media screen and (max-width: 64.063em) {
@@ -401,9 +403,9 @@ a.btn {
 	.app.row {
 		padding: 100 20 100 20;
 	}
-
-	#social-btns {
-		display: none;
+	
+	#nav {
+		float: none;
 	}
 
 	div#profile-bar.row {
@@ -467,7 +469,7 @@ a.btn {
 
 	#product-image.carousell {
 		background: url('../img/carousell-desktop-mockup_mobile.jpg') no-repeat;
-	 background-size: 100%;
+	 	background-size: 100%;
 	}
 
 	#product-image.multitude {
@@ -478,5 +480,13 @@ a.btn {
 	#product-image.nebulo {
 		background: url('../img/nebulo-iphone-mockup_mobile.jpg') no-repeat;
 	 background-size: 100%;
+	}
+
+	#introduction p {
+		text-align: center;
+	}
+
+	#social-btns {
+		padding-top: 10px;
 	}
 }
