@@ -1,3 +1,7 @@
+h3.appTitle {
+	color: rgb(61, 70, 77);
+}
+
 a {
 	font-family: "proxima-nova",sans-serif;
 	font-style: normal;
@@ -475,25 +479,11 @@ p.appDescription {
 		padding: 40%;
 	}
 
-	#product-image.relayplay {
-		background: url('../img/relayplay_mobile.jpg') no-repeat;
-	 	background-size: 100%;
-	}
-
-
-	#product-image.carousell {
-		background: url('../img/carousell-desktop-mockup_mobile.jpg') no-repeat;
-	 	background-size: 100%;
-	}
-
-	#product-image.multitude {
-		background: url('../img/multitude-mockup_mobile.jpg') no-repeat;
-	 background-size: 100%;
-	}
-
-	#product-image.nebulo {
-		background: url('../img/nebulo-iphone-mockup_mobile.jpg') no-repeat;
-	 background-size: 100%;
+	#product-desc img {
+		display: block;
+		width: 60%;
+		margin: 0 auto;
+		margin-bottom: 1em;
 	}
 
 	#introduction p {
