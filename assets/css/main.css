@@ -25,6 +25,9 @@ a.fi-social-dribbble:hover {
 	color: #ea4c89;
 }
 
+a.white {
+	color: white;
+}
 
 .profile-photo {
 	display:inline-block;
@@ -59,7 +62,6 @@ a.fi-social-dribbble:hover {
  background-size: cover;
   	height: 375px;
 }
-
 
 #multitude {
 	background: url('../img/multitude-mockup.jpg') no-repeat center center fixed;
@@ -313,6 +315,12 @@ a.btn {
 	font-weight: 300;
 }
 
+#product-desc img {
+	display: inline-block;
+	width: 30%;
+	margin-left: 2.5%;
+}
+
 #product-image {
 	height: 500px;
 }
@@ -337,6 +345,12 @@ a.btn {
 	background: url('../img/nebulo-iphone-mockup.jpg') no-repeat center center;
  background-size: cover;
 }
+
+#product-image.exhibitguide {
+	background: url('../img/exhibitguide.jpg') no-repeat center center;
+	background-size: cover;
+}
+
 
 #footer.small {
 	padding:50px;
@@ -403,7 +417,7 @@ p.appDescription {
 	.app.row {
 		padding: 100 20 100 20;
 	}
-	
+
 	#nav {
 		float: none;
 	}
