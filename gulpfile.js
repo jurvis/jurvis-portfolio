@@ -15,9 +15,8 @@ var dist = 'build/'
 var reload = browserSync.reload;
 
 gulp.start('start', function() {
-	gulp.run('build');
 	gulp.run('image');
-	gulp.run('serve');
+	gulp.run('build');
 });
 
 gulp.task('serve', function() {
