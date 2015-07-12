@@ -49,7 +49,7 @@ gulp.task('build', function() {
 
 gulp.task('image', function() {
 	return gulp.src('assets/img/**/*')
-		.pipe(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))
+		.pipe(cache(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true })))
 		.pipe(gulp.dest(distImages))
 		.pipe(notify({ message: 'Images task complete' }));
 });
