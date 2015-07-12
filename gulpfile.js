@@ -11,6 +11,7 @@ var dist = 'build/'
 ,	dirPublic = dist + 'public/'
 ,	distStylesheets = dirPublic + 'assets/css'
 ,	distImages = dirPublic + 'assets/img'
+,	distFonts = dirPublic + 'assets/fonts'
 
 var reload = browserSync.reload;
 
@@ -44,7 +45,10 @@ gulp.task('build', function() {
 
 	gulp.src('*.html')
 		.pipe(minifyHTML())
-		.pipe(gulp.dest(dirPublic))
+		.pipe(gulp.dest(dirPublic));
+
+	gulp.src('assets/fonts/*')
+		.pipe(gulp.dest(distFonts))
 });
 
 gulp.task('image', function() {
