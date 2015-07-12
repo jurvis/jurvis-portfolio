@@ -14,9 +14,10 @@ var dist = 'build/'
 
 var reload = browserSync.reload;
 
-gulp.start('start', function() {
-	gulp.run('image');
+gulp.task('dev', function() {
 	gulp.run('build');
+	gulp.run('image');
+	gulp.run('serve');
 });
 
 gulp.task('serve', function() {
@@ -51,4 +52,9 @@ gulp.task('image', function() {
 		.pipe(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))
 		.pipe(gulp.dest(distImages))
 		.pipe(notify({ message: 'Images task complete' }));
+});
+
+gulp.task('default', function() {
+	gulp.run('build');
+	gulp.run('image');
 });

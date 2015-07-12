@@ -26,12 +26,7 @@ npm install -g gulp
 
 ### Getting Started
 Run `npm install` and let the command line download dependencies and do it's magic.
-To get started from scratch, run:
-```
-gulp start
-gulp serve
-```
-Subsequently, running `gulp serve` will do just fine
+Run `gulp dev` to let everything get set up. Subsequently, running `gulp serve` will do just fine
 
 ## Support and Tested
 * ~~iPhone 5/5S~~
