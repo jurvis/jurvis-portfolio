@@ -24,7 +24,7 @@ gulp.task('dev', function() {
 gulp.task('serve', function() {
 	gulp.run('build');
 	browserSync({
-		proxy: "localhost:8888/jurvis-portfolio"
+		proxy: "localhost:8888/nebulo-landing"
 	});
 
 	gulp.watch([
