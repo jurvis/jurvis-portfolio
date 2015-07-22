@@ -5,6 +5,7 @@ var gulp = require('gulp'),
 			imagemin = require('gulp-imagemin'),
 			notify = require('gulp-notify'),
 			cache = require('gulp-cache'),
+			sitemap = require('gulp-sitemap'),
 			browserSync = require('browser-sync');
 
 var dist = 'build/'
@@ -56,6 +57,14 @@ gulp.task('image', function() {
 		.pipe(cache(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true })))
 		.pipe(gulp.dest(distImages))
 		.pipe(notify({ message: 'Images task complete' }));
+});
+
+gulp.task('sitemap', function () {
+    gulp.src(dirPublic)
+        .pipe(sitemap({
+            siteUrl: 'http://jurvis.co'
+        }))
+        .pipe(gulp.dest('/assets'));
 });
 
 gulp.task('default', function() {
