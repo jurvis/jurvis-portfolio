@@ -1,6 +1,6 @@
 # My Personal Portfolio
 
-The code used for my portfolio located: http://jurvis.co/work/
+The code used for my old portfolio located at: http://jurv.is/legacy
 
 ## Setting Up
 Run this on htdocs with MAMP as you'll be needing it to view TypeKit Fonts
