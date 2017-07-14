@@ -356,8 +356,8 @@ a.btn {
 }
 
 #product-image.fossasia {
-	background: url('../img/fossasia_ios.jpg') no-repeat center center fixe;
-	background-size: cover;
+	background: url('../img/fossasia_ios.jpg') no-repeat center center;
+	background-size: cover
 }
 
 #footer.small {
